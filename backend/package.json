@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "nodemon server.js",
@@ -10,7 +10,7 @@
     "schema": "psql -U postgres -f db/schema.sql",
     "setup": "psql -U postgres -f db/schema.sql -f db/seed.sql"
   },
-  "author": "",
+  "author": "Vianel De La Cruz",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
